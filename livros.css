@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Fnaf';
+    src: url(HACKED.ttf);
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+    }
+  
+    body{
+      background-color: black;
+    }
+  
+    .navbar {
+
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      color: whitesmoke;
+      font-weight: 500;
+      font-size: 20px;
+      font-family: 'Fnaf';
+      background-color: #460000;
+      
+    }
+  
+    .navbar a{
+      text-decoration: none;
+      color: black;
+      margin-top: 5px;
+    }
+  
+    .navbar a:hover{
+     transform: scale(1.1);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    color: rgb(235, 169, 169);
+  }
+    .linhas {
+      cursor: pointer;
+    }
+    
+    .botao {
+      display: none;
+    }
+  
+    
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 40px;
+    font-family: 'Fnaf';
+    text-shadow: 0 0 7px  rgb(75, 0, 0);
+    margin-top: 15px;
+}
+
+.um{
+   align-items: center;
+   padding: 15px;
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+   margin: 143px;
+   margin-top: 50px;
+}
+
+.dois{
+  align-items: center;
+  padding: 15px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 143px;
+  margin-top: 50px;
+}
+
+div a img:hover{
+  transform: scale(1.1);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    color: rgb(235, 169, 169);
+    cursor: cell;
+  }
+
+
+ #HH{
+width: 200px;
+ }
+ 
